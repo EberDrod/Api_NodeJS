@@ -1,0 +1,11 @@
+//Full Stack 
+1.-npm init 
+
+2.-npm install express mongoose
+
+3.-npm install --save-dev nodemon
+
+
+
+//Iniciar una base de datos 
+brew services start mongodb-community
