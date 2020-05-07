@@ -1,6 +1,6 @@
 # API_NodeJS
 
-\_Se ha creado una API conectada a mongo DB y se ha unido body parser para llamar un JSON, hacer pruebas en POSTMAN.
+_Se ha creado una API conectada a mongo DB y se ha unido body parser para llamar un JSON, hacer pruebas en POSTMAN.
 
 ## Comenzando 🚀
 
@@ -32,7 +32,7 @@ _Una vez instalado nodemon & crear un Script dentro de nuestro package.json_
 npm i
 ```
 
-_script : " nodemon ./index.js"_
+_Asignar el siguiente código a package.json = "script" : " nodemon ./index.js"_
 
 ```
 npm run dev
@@ -40,7 +40,7 @@ npm run dev
 
 _Explica como ejecutar las pruebas automatizadas para este sistema_
 
-### Analice las pruebas end-to-end 🔩
+### Analice las pruebas con Mongo DB antes de inicar con la interfaz 🔩
 
 _Se ha usado postman para ejecutar pruebas unitarias para ejecutar pruebas con base de datos _
 
@@ -50,7 +50,7 @@ brew communityservices start mongodb
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+_Herramientas que utilizaste para crear tu proyecto_
 
 - [Node.js](https://nodejs.org/es/) - Lenguaje de progamacion.
 - [MongoDb](https://www.mongodb.com/download-center/community) - Base de datos dentro de node JS.
