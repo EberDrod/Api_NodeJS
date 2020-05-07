@@ -3,6 +3,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 //Importar Routing
 const routes = require('./routes');
+//Importa body Parser para enviar datos tipo JSON
+const bodyParser = require('body-parser');
 
 // Crear el Server
 const app = express();
@@ -14,6 +16,9 @@ mongoose.connect('mongodb://localhost/veterinaria', {
   useUnifiedTopology: true,
   useFindAndModify: false,
 });
+// -------> Habilitar body-parser <---------
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 //---->Habilitar routing<-----(Middlewares)
 app.use('/', routes());

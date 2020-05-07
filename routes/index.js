@@ -10,5 +10,8 @@ module.exports = function () {
     //Importar controlador & funcion
     pacienteController.nuevoCliente
   );
+  // Obtiene todos los registros de paciente en la BD
+  router.get('/pacientes', pacienteController.obtenerPacientes);
+
   return router;
 };

@@ -1,7 +1,7 @@
-const mongoose = require('mongose');
-const Shema = mongoose.Shema;
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-const pacientesSchema = new Shema({
+const pacientesSchema = new Schema({
   nombre: {
     type: String,
     trim: true,
@@ -11,6 +11,10 @@ const pacientesSchema = new Shema({
     trim: true,
   },
   fecha: {
+    type: String,
+    trim: true,
+  },
+  telefono: {
     type: String,
     trim: true,
   },
@@ -24,4 +28,4 @@ const pacientesSchema = new Shema({
   },
 });
 
-module.exports = mongoose.model('Pacientes', pacientesSchema);
+module.exports = mongoose.model('Paciente', pacientesSchema);
