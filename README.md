@@ -4,7 +4,7 @@
 
 ## Comenzando 🚀
 
-Estas configuraciones solo son al inicio del proyecto, observar como se configura el packe
+Estas configuraciones solo son al inicio del proyecto, observar como se configura el package.json
 
 ### Pre-requisitos 📋
 
